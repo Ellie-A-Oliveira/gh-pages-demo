@@ -1,1 +1,24 @@
 @import url(./resetter.css);
+
+* {
+  --ff: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: grid;
+  min-height: 100%;
+  grid-template-rows: 1fr auto 1fr;
+  font-family: var(--ff);
+}
+
+header {
+  background-color: aliceblue;
+}
+
+main {
+  background-color: azure;
+}
+
+footer {
+  background-color: aquamarine;
+}
