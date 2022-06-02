@@ -7,18 +7,18 @@
 body {
   display: grid;
   min-height: 100vh;
-  grid-template-rows: 1fr auto 1fr;
+  grid-template-rows: auto 1fr auto;
   font-family: var(--ff);
 }
 
-header {
+body > header {
   background-color: aliceblue;
 }
 
-main {
+body > main {
   background-color: azure;
 }
 
-footer {
+body > footer {
   background-color: aquamarine;
 }
